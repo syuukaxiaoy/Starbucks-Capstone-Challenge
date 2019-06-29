@@ -95,6 +95,6 @@ The accuracy of random forest is more than 80%, the F1 value has been improved, 
 
 Selection of experimental subjects：
 
-Further investigation of unrealistic data excluded by users
+- Further investigation of unrealistic data excluded by users
 
-Choose people who are really interested in offers, but for some reasons, they don’t have enough time to complete it. 
+- Choose people who are really interested in offers, but for some reasons, they don’t have enough time to complete it. 

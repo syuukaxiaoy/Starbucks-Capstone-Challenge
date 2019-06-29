@@ -67,3 +67,34 @@ https://medium.com/@1915671841/starbucks-capstone-challenge-1289b0e427ec
 - time
 - dateutil.parser
 - datetime
+
+## Algorithm：
+- SVC
+- RandomforestClassifier
+- AdaboostClassifier
+
+## Techniques：
+- Pipeline
+
+## Metrics：
+- Accuracy
+- f1 score
+- cost time
+
+## Model Evaluation and Validation：
+
+The accuracy of RFE is the highest by comparing the charts, and the other two are not very different. Then compare the time spent on training data. From the figure above, we can see that the longest time spent on SVC is more than 3000s, the other two are relatively faster, RFE is the fastest, followed by ABC. Considering the above results, SVC is not a good choice. The time spent on SVC does not bring higher accuracy. Then the best one is the RFE, and the shortest one is the RFE. Although ABC is fast, it is still inferior to RFE in all aspects. So in the end, I think RandomForestClassifier is the best choice under this data set.
+
+## Reflection：
+Retrain the selected model on the whole data set
+
+Result：
+The accuracy of random forest is more than 80%, the F1 value has been improved, the data set has changed greatly, but it does not take a long time, so I think this is a good choice.
+
+## Improvements：
+
+Selection of experimental subjects：
+
+Further investigation of unrealistic data excluded by users
+
+Choose people who are really interested in offers, but for some reasons, they don’t have enough time to complete it. 
